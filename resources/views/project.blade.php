@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Информация о проекте
                 </div>
 
                 <div class="links">
@@ -90,7 +90,6 @@
                     <a href="/new">News</a>
                     <a href="/login">Authorization</a>          
                 </div>
-               
             </div>
         </div>
     </body>
