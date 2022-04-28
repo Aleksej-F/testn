@@ -4,24 +4,24 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class NewsController extends Controller
+class CategoryController extends Controller
 {
     public function index()
     {
         // return 'yjhdjcnm';
-        $news = $this->getNews();
-        //dd($news);
-        return view('news.index', [
-            'newsList' => $news
+        $categories = $this->getCategories();
+        //dd($categories);
+        return view('categories.index', [
+            'categoriesList' => $categories
         ]);
     }
     
     public function show($id)
     {
-        $news = $this->getNews($id);
+        $news = $this->getNews(null, $id);
         //dd($news);
-        return view('news.show', [
-            'news' => $news
+        return view('news.index', [
+            'newsList' => $news
         ]);
     }
 }

@@ -54,9 +54,6 @@ class Controller extends BaseController
             return [
                 'id' => $id,
                 'title' => $faker->jobTitle(),
-                'author' => $faker->name(),
-                'image' => $faker->imageUrl(),
-                'description' => $faker->text(150),
                 'created_at' => now('Europe/Moscow')
             ];
             
@@ -70,6 +67,6 @@ class Controller extends BaseController
             ];
         }
 
-        return $news;
+        return $categories;
     }
 }
