@@ -81,16 +81,16 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Добро пожаловать на новостной портал.
+                    Информация о проекте
                 </div>
-                
+
+               
                 <div class="links">
                     <a href="/">Home</a>
                     <a href="/project">Project</a>
                     <a href="/categories">News</a>
                     <a href="/login">Authorization</a>          
                 </div>
-               
             </div>
         </div>
     </body>
