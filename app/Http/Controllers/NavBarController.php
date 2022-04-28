@@ -8,10 +8,6 @@ class NavbarController extends Controller
 {
     public function navBar()
     {
-       
-       
         return view('navbar');
     }
-    
-   
 }
