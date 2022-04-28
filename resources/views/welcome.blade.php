@@ -81,9 +81,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Добро пожаловать на новостной портал.
                 </div>
-
+                
                 <div class="links">
                     <a href="/">Home</a>
                     <a href="/project">Project</a>
