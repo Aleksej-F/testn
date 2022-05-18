@@ -40,9 +40,12 @@
   <x-admin.sidebar></x-admin.sidebar>
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        
+      <div class="album py-5 bg-light">
+        <div class="container"> 
     
-        @yield('content')
+          @yield('content')
+        </div>
+      </div>
     </main>
   </div>
 </div>

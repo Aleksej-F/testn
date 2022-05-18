@@ -6,6 +6,9 @@ use App\Http\Controllers\NewsController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CategoryController;
 
+use App\Http\Controllers\ReviewsController;
+use App\Http\Controllers\OrdersController;
+
 use Admin\IndexController as AdminController;
 use Admin\CategoryController as AdminCategoryController;
 use Admin\NewsController as AdminNewsController;
@@ -58,4 +61,8 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function() {
 });
 
 
+Route::get('/reviews', [ReviewsController::class, 'index']) ->name('reviews');
+Route::match(['post','get'],'/reviews/store', [ReviewsController::class, 'store']) ->name('reviews.store');
 
+Route::get('/orders', [OrdersController::class, 'index']) ->name('orders');
+Route::match(['post','get'],'/orders/store', [OrdersController::class, 'store']) ->name('orders.store');

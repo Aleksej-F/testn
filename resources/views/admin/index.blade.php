@@ -11,10 +11,10 @@
         </div>
     </div>
 
-
-    <x-alert type="success" :message="$msg"></x-alert>
-    <x-alert type="warning"  message="Ворнинг"></x-alert>
-    <x-alert type="danger"   message="Ошибка"></x-alert>
+   
+        <x-alert type="success" :message="$msg"></x-alert>
+        <x-alert type="warning"  message="Ворнинг"></x-alert>
+        <x-alert type="danger"   message="Ошибка"></x-alert>
 
 
 @endsection
